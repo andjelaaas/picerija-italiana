@@ -11,8 +11,14 @@
 	<meta name="description" content="Domaći zadatak iz predmeta veb dizajn. " >
     <meta name="author" content="Andjela Stanic | IS 104/17 | andjelais10417@gs.viser.edu.rs " >
     <meta name="keywords" content="biografija, andjela stanic, veb dizajn, domaci" >
+
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
 </head>
-<body>
+<body style="margin: 0; width: 100%;">
 	<i> <h1 class="naslov">Pizzeria Italiana </h1></i>
 <nav >
 	<b> <ul class="navigacija">
@@ -22,120 +28,134 @@
 		--><li><a href="picerija.html#kontakt">Kontakt</a></li>
 		</ul> </b>
 </nav>
-<div class="vrsta">
-	<i> <h1>Capricciosa</h1> </i>
-   <img class="capri" src="https://cdn-image.myrecipes.com/sites/default/files/styles/medium_2x/public/image/recipes/su/14/09/capricciosa-pizza-su-x.jpg?itok=6t4zKFtf">
-   <p class="pp">Mešana - paradajz, sir, šunka, gljive, masline </p>
-   <table class="tabela">
-   	<tr class="tabela">
-   	<th class="tabela">Dimenzije</th>
-   	<th>Cena</th>
-   	</tr>
-   	<tr>
-   		<td class="tabela">Single 28cm</td>
- 	   <td class="tabela">590 dinara</td>
- 	  </tr> 
- <tr>
-	<td class="tabela">Double 32cm</td>
-	<td class="tabela">660 dinara</td>
-</tr>
-<tr>
-	<td class="tabela">Family 50cm</td>
-	<td class="tabela">940 dinara</td>
-</tr>
-</table>
-   </div>
-   <div class="vrsta">
-   <i><h1>Margarita</h1></i>
-   <img class="capri" src="https://static01.nyt.com/images/2014/04/09/dining/09JPPIZZA2/09JPPIZZA2-articleLarge.jpg">
-   <p class="pp">Za ljubitelje klasike i jednostavnosti. <br> Sastav:kečap, kačkavalj, origano</p>
-   <table class="tabela" style="margin-top: 110px;">
-   	<tr class="tabela">
-   		<th class="tabela">Dimenzije</th>
-   		<th class="tabela">Cena</th>
-   	</tr>
-   	<tr>
-   		<td class="tabela">Single 28cm</td>
-		<td class="tabela">490 dinara</td>
-   	</tr>
-   	<tr>
-   		<td class="tabela">Double 32 cm</td>
-   		<td class="tabela">580 dinara</td>
-   	</tr>
-   	<tr>
-   		<td class="tabela"> Family 50cm</td>
-   		<td class="tabela"> 790 dinara</td>
-   	</tr>
-   </table>
-</div>
-<div class="vrsta">
-<i><h1>Vegetariana</h1></i>
-<img class="capri" src="https://www.kitchentreaty.com/wp-content/uploads/2015/06/vegan-summer-pizza-with-sweet-corn-tomatoes-and-basilsq-660x430.jpg">
-<p class="pp">Pica sa nadevom od povrća, može biti u posnoj variijanti sa biljnim kačkavaljem.<br> Sastav: kečap, kačkavalj,paradajz, pečurka, maslina, kukuruz, origano.</p>
-<table class="tabela" style="margin-top: 90px;">
-	<tr class="tabela">
-	<th class="tabela">Dimenzije</th>
-	<th class="tabela">Cena</th>
-	</tr>
-	<tr>
-		<td class="tabela">Single 28 cm</td>
-		<td class="tabela">570 dinara</td>
-	</tr>
-	<tr>
-		<td class="tabela">Double 32 cm</td>
-		<td class="tabela">630 dinara</td>
-	</tr> 
-	<tr>
-		<td class="tabela">Family 50 cm</td>
-		<td class="tabela">870 dinara</td>
-	</tr>
-</table>
-</div>
-<div class="vrsta">
-<i><h1>Frutti Di Mare</h1></i>
-<img class="capri" src="https://www.whitneyerd.com/wp-content/uploads/2013/09/pizza-2.jpg">
-<p class="pp">Pica sa puno vrsta kvalitetnih morskih plodova. Može biti i skor posna sa biljnim kačkavaljem! <br> Sastav: kečap, kačkavalj, pečurke, sir, škampi, meso jastoga, limun, masline.</p>
-<table class="tabela" style="margin-top: 90px;">
-	<tr class="tabela">
-	<th class="tabela">Dimenzije</th>
+<div class="row">
+	<div class="col-sm-6">
+
+	<i> <h1 class="title text-center">Capricciosa</h1> </i>
+   <img class="capri img-responsive" src="http://borodachi.moscow/wp-content/uploads/2017/03/10-300x300.png">
+   <p class="pp">Mešana - paradajz, sir, šunka, gljive, masline </p> <br>
+   <table class="table table-hover center" style="width: 50%; margin-left: 25%;">
+	<tr >
+	<th >Dimenzije</th>
 	<th>Cena</th>
 	</tr>
 	<tr>
-		<td class="tabela">Single 28 cm</td>
-		<td class="tabela">620 dinara</td>
+		<td >Single 28 cm</td>
+		<td >620 dinara</td>
 	</tr>
 	<tr>
-		<td class="tabela">Double 32 cm</td>
-		<td class="tabela">690 dinara</td>
+		<td >Double 32 cm</td>
+		<td >690 dinara</td>
 	</tr>
 	<tr>
-		<td class="tabela">Family 50 cm</td>
-		<td class="tabela">980 dinara</td>
+		<td >Family 50 cm</td>
+		<td >980 dinara</td>
+	</tr>
+</table>
+   </div>
+   
+   <div class="col-sm-6">
+
+	<i> <h1 class="title text-center">Margarita</h1> </i>
+   <img class="capri img-responsive" src="https://bestmargheritapizza.com/wp-content/uploads/2016/10/margherita-2-300x300.png">
+   <p class="pp">Mešana - paradajz, sir, šunka, gljive, masline </p> <br>
+   <table class="table table-hover center" style="width: 50%; margin-left: 25%;">
+	<tr >
+	<th >Dimenzije</th>
+	<th>Cena</th>
+	</tr>
+	<tr>
+		<td >Single 28 cm</td>
+		<td >620 dinara</td>
+	</tr>
+	<tr>
+		<td >Double 32 cm</td>
+		<td >690 dinara</td>
+	</tr>
+	<tr>
+		<td >Family 50 cm</td>
+		<td >980 dinara</td>
+	</tr>
+</table>
+   </div>
+
+</div>
+
+<div class="row">
+	<div class="col-sm-6">
+<i><h1 class="title text-center">Vegetariana</h1></i>
+<img class="capri img-responsive" src="https://mammapizza.ee/wp-content/uploads/2018/08/Vegetariana.png">
+<p class="pp">Pica sa nadevom od povrća, može biti u posnoj variijanti sa biljnim kačkavaljem.<br> Sastav: kečap, kačkavalj,paradajz, pečurka, maslina, kukuruz, origano.</p>  <br>
+<table class="table table-hover center" style="width: 50%; margin-left: 30%;"  >
+	<tr >
+	<th >Dimenzije</th>
+	<th >Cena</th>
+	</tr>
+	<tr>
+		<td >Single 28 cm</td>
+		<td >570 dinara</td>
+	</tr>
+	<tr>
+		<td>Double 32 cm</td>
+		<td >630 dinara</td>
+	</tr> 
+	<tr>
+		<td >Family 50 cm</td>
+		<td >870 dinara</td>
 	</tr>
 </table>
 </div>
-<div class="vrsta">
-	<i><h1>Di Jana</h1></i>
-	<img class="capri" src="http://1.bp.blogspot.com/-pvRCl3TW49E/T6ucFZ7Z_PI/AAAAAAAAAW4/whWtBELoK9M/s1600/Pizza+Slices.jpg">
-	<p class="pp"> Dobar bolognese sos na srpskoj pogači. <br> Sastav: Kečap, kačkavalj, specijal bolonjeze sos, origano. </p>
-	<table class="tabela">
-		<tr class="tabela">
-			<th class="tabela">Dimenzije</th>
-			<th>Cena</th>
-		</tr>
-		<tr>
-			<td class="tabela">Single 28cm</td>
-			<td class="tabela">590 dinara</td>
-		</tr>
-		<tr>
-			<td class="tabela">Double 32 cm</td>
-			<td class="tabela">660 dinara</td>
-		</tr>
-		<tr>
-			<td class="tabela">Family 50 cm</td>
-			<td class="tabela"> 910 dinara</td>
-		</tr>
-	</table>
+<div class="col-sm-6">
+
+	<i> <h1 class="title text-center">Frutti di Mare</h1> </i>
+   <img class="capri img-responsive" src="https://mammapizza.ee/wp-content/uploads/2018/08/Frutti-di-Mare.png">
+   <p class="pp">Mešana - paradajz, sir, šunka, gljive, masline </p> <br>
+   <table class="table table-hover center" style="width: 50%; margin-left: 25%;">
+	<tr >
+	<th >Dimenzije</th>
+	<th>Cena</th>
+	</tr>
+	<tr>
+		<td >Single 28 cm</td>
+		<td >620 dinara</td>
+	</tr>
+	<tr>
+		<td >Double 32 cm</td>
+		<td >690 dinara</td>
+	</tr>
+	<tr>
+		<td >Family 50 cm</td>
+		<td >980 dinara</td>
+	</tr>
+</table>
+   </div>
+
+</div>
+<div class="row" style="text-align: center; margin-left: 30%;">
+	<div class="col-sm-6">
+
+	<i> <h1 class="title text-center">Frutti di Mare</h1> </i>
+   <img class="capri img-responsive" src="https://pizzakuller.ee/wp-content/uploads/2017/09/fruttidimare-300x300.png">
+   <p class="pp">Mešana - paradajz, sir, šunka, gljive, masline </p> <br>
+   <table class="table table-hover center" style="width: 50%; margin-left: 25%;">
+	<tr >
+	<th >Dimenzije</th>
+	<th>Cena</th>
+	</tr>
+	<tr>
+		<td >Single 28 cm</td>
+		<td >620 dinara</td>
+	</tr>
+	<tr>
+		<td >Double 32 cm</td>
+		<td >690 dinara</td>
+	</tr>
+	<tr>
+		<td >Family 50 cm</td>
+		<td >980 dinara</td>
+	</tr>
+</table>
+   </div>
 </div>
 </body>
 </html>

@@ -2,10 +2,14 @@ body {background-image:url(http://www.planwallpaper.com/static/images/6790904-fr
 	;
 		text-align: center;
 	margin: 0;
-padding: 0;}
+padding: 0;
+color: white;
+}
 
 @font-face{ font-family: myFont;
 			src: url(Oranienbaum.ttf); }
+.col-sm-6 {background-color: transparent;
+color: white;}			
 
 .naslov{font-family: myFont;
 		font-size: 60px;
@@ -79,11 +83,6 @@ text-align: center;}
 }
 .pp{font-size: 20px;}
 
-table {
-border-collapse: collapse;
-border-spacing: 10px;
-border:1px solid black;
-}		
 
 .tabela{border: 1px solid black;
 		padding: 10px;
